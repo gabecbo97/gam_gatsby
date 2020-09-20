@@ -1,0 +1,53 @@
+.company {
+    height: auto;
+    
+  }
+  
+  .text-center {
+    margin-top: 100px;
+    color: gray;
+  }
+  
+  .card-partner {
+   
+    margin-top: 100px;
+    border: none;
+    height: 400px;
+  
+    .card-title {
+      text-align: center;
+    }
+    .card-text {
+      text-align: center;
+    }
+    .btn{
+      justify-self: center;
+    }
+    .btn-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      border: 1px solid gray;
+      
+      width: 80%;
+      position: absolute;
+      bottom: 0;
+      
+      font-size: 21px;
+      color: gray;
+      &:hover{
+          background: rgba(128, 128, 128, 0.493);
+          color: white;
+      }
+      
+    
+      
+      
+    }
+    img {
+      max-width: 100px;
+      margin: auto;
+    }
+  }
+  
