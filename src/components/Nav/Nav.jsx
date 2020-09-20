@@ -1,70 +1,72 @@
 import React from "react"
 import "../Nav/Nav.scss"
 import { Link } from "gatsby"
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+ 
+} from "react-bootstrap"
 
-export default function Nav() {
+export default function () {
   return (
-    <div>
-      <nav className="navbar navbar-expand-md fixed-top">
-        <Link className="navbar-brand" to="/">
-          <p>
-            <strong>G.A.M </strong> MARCENARIA
-          </p>
+    <>
+      <Navbar className="navbar fixed-top" expand="lg">
+        <Link to="/">
+          <Navbar.Brand className="logo">
+            <b>G.A.M</b> MARCENARIA
+          </Navbar.Brand>
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:"gray"}} />
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          style={{ justifyContent: "flex-end" }}
         >
-          <span>
-            <img src="" alt="" width="35px" />
-          </span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav">
-            <li className="nav-item dropdown">
-              <div class="dropdown">
-                <span className="nav-link">Protfólio</span>
-                <div class="dropdown-content">
-                  <Link to="/sala" className="dropdown-item" href="#">
-                    Sala de estar
-                  </Link>
-                  <Link to="/banheiro" className="dropdown-item" href="#">
-                    Banheiro
-                  </Link>
-                  <Link to="/cozinha" className="dropdown-item" href="#">
-                    Cozinha
-                  </Link>
-                  <Link to="/decoracao" className="dropdown-item" href="#">
-                    Decoração
-                  </Link>
-                  <Link to="/dormitorio" className="dropdown-item" href="#">
-                    Dormitório
-                  </Link>
-                  <Link to="/escritorio" className="dropdown-item" href="#">
-                    Escritório
-                  </Link>
-                </div>
-              </div>
-
-              <div
-                className="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-              ></div>
-            </li>
-            <li className="nav-item active">
-              <Link className="nav-link" to="/contato">
-                Contato <span className="sr-only"></span>
+          <Nav className="">
+            <NavDropdown
+              className="item-menu"
+              title="PORTFÓLIO"
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item >
+                <Link className="item" to="/sala">
+                  Sala de estar
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item >
+                <Link className="item" to="/banheiro">
+                  Banheiro
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item >
+                <Link className="item" to="/cozinha">
+                  Cozinha
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item >
+                <Link className="item" to="/decoracao">
+                  Decoração
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item >
+                <Link className="item" to="/dormitorio">
+                  Dormitório
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item >
+                <Link className="item" to="/escritorio">
+                  Escritório
+                </Link>
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link> 
+              <Link className="item-menu" to="/contato">
+                Contato
               </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </>
   )
 }

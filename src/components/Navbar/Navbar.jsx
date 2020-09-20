@@ -2,20 +2,10 @@ import React from "react"
 import "../Navbar/Navbar.scss"
 import { Link } from "gatsby"
 
-import $ from "jquery"
+
 
 export default function Nav() {
   
-  $(document).ready(function () {
-    // Toggle menu on click
-    $("#menu-toggler").click(function () {
-      toggleBodyClass("menu-active")
-    })
-
-    function toggleBodyClass(className) {
-      document.body.classList.toggle(className)
-    }
-  })
   return (
     <>
       <nav className="navbar fixed-top">
@@ -32,12 +22,10 @@ export default function Nav() {
           </button>
 
           <ul id="primary-menu" className="menu nav-menu">
-            <li className="menu-item dropdown">
-              <Link to="/" className="nav__link">
-                PORTFÓLIO
-              </Link>
-              <ul className="sub-nav">
-                <li>
+          <div className="dropdown">
+              <Link to="#" >Portfólio</Link>
+              <div className="dropdown-content">
+              <li>
                   <Link to="/sala" className="sub-nav__link">
                     Sala de estar
                   </Link>
@@ -67,8 +55,9 @@ export default function Nav() {
                     Escritório
                   </Link>
                 </li>
-              </ul>
-            </li>
+              </div>
+            </div>
+            
             <li className="menu-item current-menu-item">
               <Link to="/contato" className="nav__link">
                 Contato
