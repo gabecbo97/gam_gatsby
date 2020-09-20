@@ -15,7 +15,7 @@ export default function Sala() {
   
   return (
     <Layout>
-      <SEO title="Sala de estar" />
+      <SEO title="Sala de estar"/>
         <div className="container">
         <div className="col-md text-center mb-5">
           <p className="text-center">
