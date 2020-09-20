@@ -8,11 +8,11 @@ export default function Footer() {
     <footer className="footer">
       <div className="container ">
         <div className="col-md">
-          <a target="_blank" href="https://www.facebook.com/geraldoartemoveis">
+          <a target="_blank" rel="noreferrer"  href="https://www.facebook.com/geraldoartemoveis">
             <img src={facebook} alt="" />
           </a>
 
-          <a target="_blank" href="https://www.instagram.com/gammarcenaria/">
+          <a target="_blank" rel="noreferrer"  href="https://www.instagram.com/gammarcenaria/">
             <img src={instagram} alt="" />
           </a>
           <br />

@@ -16,9 +16,9 @@ export default function Section() {
         <Link className="links-default" to="/sala">
           <div className="col-md">
             <div className="card_section text-center">
-              <img src={sala} class="card-img img-fluid" alt="..." />
+              <img src={sala} className="card-img img-fluid" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">SALA DE ESTAR</h5>
+                <h5 className="card-title">SALA DE ESTAR</h5>
               </div>
             </div>
           </div>
@@ -27,9 +27,9 @@ export default function Section() {
         <Link className="links-default" to="/cozinha">
           <div className="col-md">
             <div className="card_section text-center">
-              <img src={cozinha} class="card-img" alt="..." />
+              <img src={cozinha} className="card-img" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">COZINHA</h5>
+                <h5 className="card-title">COZINHA</h5>
               </div>
             </div>
           </div>
@@ -39,9 +39,9 @@ export default function Section() {
         <Link className="links-default" to="/dormitorio">
           <div className="col-md">
             <div className="card_section text-center">
-              <img src={dormitorio} class="card-img" alt="..." />
+              <img src={dormitorio} className="card-img" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">DORMITÓRIO</h5>
+                <h5 className="card-title">DORMITÓRIO</h5>
               </div>
             </div>
           </div>
@@ -49,9 +49,9 @@ export default function Section() {
         <Link className="links-default" to="/escritorio">
           <div className="col-md">
             <div className="card_section text-center">
-              <img src={escritorio} class="card-img" alt="..." />
+              <img src={escritorio} className="card-img" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">ESCRITÓRIO</h5>
+                <h5 className="card-title">ESCRITÓRIO</h5>
               </div>
             </div>
           </div>
@@ -61,9 +61,9 @@ export default function Section() {
         <Link className="links-default" to="/decoracao">
           <div className="col-md">
             <div className="card_section text-center">
-              <img src={decoracao} class="card-img" alt="..." />
+              <img src={decoracao} className="card-img" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">DECORAÇÃO</h5>
+                <h5 className="card-title">DECORAÇÃO</h5>
               </div>
             </div>
           </div>
@@ -71,9 +71,9 @@ export default function Section() {
         <Link className="links-default" to="/banheiro">
           <div className="col-md">
             <div className="card_section text-center">
-              <img src={banheiro} class="card-img" alt="..." />
+              <img src={banheiro} className="card-img" alt="..." />
               <div className="card-body">
-                <h5 class="card-title">BANHEIRO</h5>
+                <h5 className="card-title">BANHEIRO</h5>
               </div>
             </div>
           </div>

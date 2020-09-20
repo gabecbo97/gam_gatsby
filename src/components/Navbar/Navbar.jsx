@@ -1,10 +1,11 @@
 import React from "react"
 import "../Navbar/Navbar.scss"
 import { Link } from "gatsby"
-import icon from "../../assets/icons/menu.svg"
+
 import $ from "jquery"
 
 export default function Nav() {
+  
   $(document).ready(function () {
     // Toggle menu on click
     $("#menu-toggler").click(function () {
@@ -17,59 +18,59 @@ export default function Nav() {
   })
   return (
     <>
-      <nav class="navbar fixed-top">
-        <div class="logo">
+      <nav className="navbar fixed-top">
+        <div className="logo">
           <Link to="/">
             <b>G.A.M</b> MARCENARIA
           </Link>
         </div>
-        <div class="push-left">
-          <button id="menu-toggler" data-class="menu-active" class="hamburger">
-            <span class="hamburger-line hamburger-line-top"></span>
-            <span class="hamburger-line hamburger-line-middle"></span>
-            <span class="hamburger-line hamburger-line-bottom"></span>
+        <div className="push-left">
+          <button id="menu-toggler" data-class="menu-active" className="hamburger">
+            <span className="hamburger-line hamburger-line-top"></span>
+            <span className="hamburger-line hamburger-line-middle"></span>
+            <span className="hamburger-line hamburger-line-bottom"></span>
           </button>
 
-          <ul id="primary-menu" class="menu nav-menu">
-            <li class="menu-item dropdown">
-              <a class="nav__link" href="#">
+          <ul id="primary-menu" className="menu nav-menu">
+            <li className="menu-item dropdown">
+              <Link to="/" className="nav__link">
                 PORTFÓLIO
-              </a>
-              <ul class="sub-nav">
+              </Link>
+              <ul className="sub-nav">
                 <li>
-                  <Link to="/sala" class="sub-nav__link" href="#">
+                  <Link to="/sala" className="sub-nav__link">
                     Sala de estar
                   </Link>
                 </li>
                 <li>
-                  <Link to="/banheiro" class="sub-nav__link" href="#">
+                  <Link to="/banheiro" className="sub-nav__link">
                     Banheiro
                   </Link>
                 </li>
                 <li>
-                  <Link to="/cozinha" class="sub-nav__link" href="#">
+                  <Link to="/cozinha" className="sub-nav__link">
                     Cozinha
                   </Link>
                 </li>
                 <li>
-                  <Link to="/decoracao" class="sub-nav__link" href="#">
+                  <Link to="/decoracao" className="sub-nav__link">
                     Decoração
                   </Link>
                 </li>
                 <li>
-                  <Link to="/dormitorio" class="sub-nav__link" href="#">
+                  <Link to="/dormitorio" className="sub-nav__link">
                     Dormitório
                   </Link>
                 </li>
                 <li>
-                  <Link to="/escritorio" class="sub-nav__link" href="#">
+                  <Link to="/escritorio" className="sub-nav__link">
                     Escritório
                   </Link>
                 </li>
               </ul>
             </li>
-            <li class="menu-item current-menu-item">
-              <Link to="/contato" class="nav__link" href="#">
+            <li className="menu-item current-menu-item">
+              <Link to="/contato" className="nav__link">
                 Contato
               </Link>
             </li>

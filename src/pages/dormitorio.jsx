@@ -23,23 +23,23 @@ export default function Dormitorio() {
           </p>
         </div>
 
-        <div class="row">
-          <div class="col-lg">
+        <div className="row">
+          <div className="col-lg">
             <Gallery image={image1} link={image1} />
           </div>
-          <div class="col-lg">
+          <div className="col-lg">
             <Gallery image={image2} link={image2} />
           </div>
-          <div class="col-lg">
+          <div className="col-lg">
             <Gallery image={image3} link={image3} />
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg">
+        <div className="row">
+          <div className="col-lg">
             <Gallery image={image4} link={image4} />
           </div>
-          <div class="col-lg"></div>
-          <div class="col-lg"></div>
+          <div className="col-lg"></div>
+          <div className="col-lg"></div>
         </div>
       </div>
     </Layout>

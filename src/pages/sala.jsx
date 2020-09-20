@@ -25,25 +25,25 @@ export default function Sala() {
           <p>Design e inovação</p>
         </div>
         <br />
-        <div class="row">
-          <div class="col-lg">
+        <div className="row">
+          <div className="col-lg">
             <Gallery image={image1} link={image1} />
           </div>
-          <div class="col-lg">
+          <div className="col-lg">
             <Gallery image={image2} link={image2} />
           </div>
-          <div class="col-lg">
+          <div className="col-lg">
             <Gallery image={image3} link={image3} />
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg">
+        <div className="row">
+          <div className="col-lg">
             <Gallery image={image4} link={image4} />
           </div>
-          <div class="col-lg">
+          <div className="col-lg">
             <Gallery image={image5} link={image5} />
           </div>
-          <div class="col-lg">
+          <div className="col-lg">
             <Gallery image={image6} link={image6} />
           </div>
         </div>

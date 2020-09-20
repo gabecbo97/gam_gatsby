@@ -16,37 +16,37 @@ export default function Contato() {
       </div>
       <div className="container content mb-5">
         <form name="orcamento" method="POST" data-netlify="true">
-          <div class="form-group">
-            <div class="row">
-              <div class="col">
+          <div className="form-group">
+            <div className="row">
+              <div className="col">
                 <input
                   type="e-mail"
                   placeholder="Nome"
-                  class="form-control"
+                  className="form-control"
                   id="Nome"
                 />
               </div>
-              <div class="col">
+              <div className="col">
                 <input
                   type="email"
                   placeholder="E-mail"
-                  class="form-control"
+                  className="form-control"
                   id="E-mail"
                 />
               </div>
             </div>
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="fone"
               placeholder="Telefone (xx)x xxxx-xxxx"
-              class="form-control"
+              className="form-control"
               id="fone"
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <textarea
-              class="form-control"
+              className="form-control"
               id="exampleFormControlTextarea1"
               rows="10"
               placeholder="Qual o seu Projeto?"

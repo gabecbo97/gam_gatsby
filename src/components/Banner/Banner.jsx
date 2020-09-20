@@ -9,7 +9,7 @@ export default function Banner() {
     <div className="container-fluid banner">
        <div className="container containers">
       <div className="cards">
-        <img className="card-img-top" src={logo} alt="Card image cap" />
+        <img className="card-img-top" src={logo} alt="" />
         <div className="card-body">
           <h5 className="card-title">
             MOVEIS PLANEJADOS COM INOVAÇÃO & DESIGN
