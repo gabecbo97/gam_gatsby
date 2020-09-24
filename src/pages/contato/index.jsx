@@ -47,6 +47,7 @@ export default function Contato() {
           </div>
           <div className="form-group">
             <textarea
+              name="message"
               className="form-control"
               id="exampleFormControlTextarea1"
               rows="10"
