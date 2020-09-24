@@ -15,7 +15,7 @@ export default function Contato() {
         <p>Sem compromisso e gratuito</p>
       </div>
       <div className="container content mb-5">
-        <form name="orcamento" method="POST" data-netlify="true">
+        <form action="https://formspree.io/xgepebre" method="POST">
           <div className="form-group">
             <div className="row">
               <div className="col">
@@ -31,6 +31,7 @@ export default function Contato() {
                   type="email"
                   placeholder="E-mail"
                   className="form-control"
+                  name="_replyto"
                   id="E-mail"
                 />
               </div>
