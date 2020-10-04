@@ -15,7 +15,7 @@ export default function Contato() {
         <p>Sem compromisso e gratuito</p>
       </div>
       <div className="container content mb-5">
-        <form action="https://formspree.io/xgepebre" method="POST">
+      <form name="Orcamento de Marcenaria" method="POST" data-netlify="true">
           <div className="form-group">
             <div className="row">
               <div className="col">
