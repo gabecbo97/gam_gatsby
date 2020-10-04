@@ -31,7 +31,7 @@ export default function Contato() {
                   type="email"
                   placeholder="E-mail"
                   className="form-control"
-                  name="_replyto"
+                  name="email"
                   id="E-mail"
                 />
               </div>
@@ -43,6 +43,7 @@ export default function Contato() {
               placeholder="Telefone (xx)x xxxx-xxxx"
               className="form-control"
               id="fone"
+              name="fone"
             />
           </div>
           <div className="form-group">
