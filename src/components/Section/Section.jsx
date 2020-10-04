@@ -11,8 +11,8 @@ import { Link } from "gatsby"
 
 export default function Section() {
   return (
-    <div className="container-fluid section mb-5" style={{ width: "80%" }}>
-      <div className="row">
+    <div className="container-fluid section mb-5" style={{ width: "81vw" }}>
+      <div className="row tetxt-center">
         <Link className="links-default" to="/sala">
           <div className="col-md">
             <div className="card_section text-center">
