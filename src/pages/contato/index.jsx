@@ -20,7 +20,7 @@ export default function Contato() {
             <div className="row">
               <div className="col">
                 <input
-                  type="e-mail"
+                  type="name"
                   placeholder="Nome"
                   className="form-control"
                   id="Nome"
@@ -53,6 +53,7 @@ export default function Contato() {
               rows="10"
               placeholder="Qual o seu Projeto?"
             ></textarea>
+            
           </div>
           <p className="text-center">
             <button type="submit" class="btn btn-form">
