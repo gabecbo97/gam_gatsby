@@ -12,7 +12,7 @@ import { Link } from "gatsby"
 export default function Section() {
   return (
     <div className="container-fluid section mb-5" style={{ width: "81vw" }}>
-      <div className="row tetxt-center">
+      <div className="row tetxt-center justify-content-center">
         <Link className="links-default" to="/sala">
           <div className="col-md">
             <div className="card_section text-center">
@@ -35,7 +35,7 @@ export default function Section() {
           </div>
         </Link>
       </div>
-      <div className="row">
+      <div className="row justify-content-center">
         <Link className="links-default" to="/dormitorio">
           <div className="col-md">
             <div className="card_section text-center">
@@ -57,7 +57,7 @@ export default function Section() {
           </div>
         </Link>
       </div>
-      <div className="row">
+      <div className="row justify-content-center">
         <Link className="links-default" to="/decoracao">
           <div className="col-md">
             <div className="card_section text-center">
