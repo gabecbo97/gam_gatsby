@@ -2,12 +2,32 @@ import React from "react"
 import "../Navbar/Navbar.scss"
 import { Link } from "gatsby"
 
+import { Script } from "gatsby"
+
+<Link rel="alternate" hreflang="br" href="https://www.gmarcenaria.com"/>
+<Link rel="alternate" hreflang="en" href="https://en.gmarcenaria.com"/>
+
+
+function Weg() {
+  return <Script src="https://cdn.weglot.com/weglot.min.js" />
+}
+  
+  export default Web
+  
+  <Script
+    Weglot.initialize({
+        api_key: 'wg_07008fec0360021db1b70a77ac1f7dc76'
+    });
+/>
+
 
 
 export default function Nav() {
   
+  
   return (
     <>
+    
       <nav className="navbar fixed-top">
         <div className="logo">
           <Link to="/">
