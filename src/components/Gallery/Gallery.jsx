@@ -8,8 +8,8 @@ export default function Gallery(props) {
     <div>
       <div class="responsive mb-5">
         <div class="gallery">
-          <Link className="g-link" target="_blank" to={props.link}>
-            <img src={props.image} alt="" width="600" height="400" />
+          <Link className="g-link" to={props.link}>
+            <img src={props.image}  alt="" width="600" height="400" target="_blank" />
           </Link>
           
         </div>

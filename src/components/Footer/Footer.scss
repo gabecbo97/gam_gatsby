@@ -7,13 +7,15 @@
     height: 180px;
     width: 100%;
     text-align: center;
+   
     
   
     img {
-      width: 45px;
+      width: 25px;
       margin: 30px;
       &:hover {
-        width: 40px;
+        transition: 5ms;
+        width: 30px;
       }
     }
   }

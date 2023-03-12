@@ -17,7 +17,7 @@ export default function Footer() {
           </a>
           <br />
 
-          <p>&copy; G.A.M 2020</p>
+          <p>&copy; G.A.M 2023</p>
         </div>
       </div>
     </footer>
